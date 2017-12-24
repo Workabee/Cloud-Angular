@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h2>{{hero.name}} details!</h2>
+  <div><label>id: </label>{{hero.id}}</div>
+  <div><label>name: </label>{{hero.name}}</div>
+  <input [(ngModel)]="hero.name" placeholder="name">
+  <button nz-button [nzType]="'primary'">测试按钮</button>
+  <router-outlet></router-outlet>
+</div>
+
+
